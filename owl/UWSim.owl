@@ -55,7 +55,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&knowrob;pathToCadModel"/>
-                <owl:hasValue rdf:datatype="&xsd;string">package://Objects/fishtank_floorandobjects.dae</owl:hasValue>
+                <owl:hasValue rdf:datatype="&xsd;string">package://iai_uwsim/Objects/fishtank_floorandobjects.dae</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>   
   </owl:Class>
@@ -65,7 +65,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&knowrob;pathToCadModel"/>
-                <owl:hasValue rdf:datatype="&xsd;string">package://Objects/Mountain.dae</owl:hasValue>
+                <owl:hasValue rdf:datatype="&xsd;string">package://iai_uwsim/Objects/Mountain.dae</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>   
   </owl:Class>
@@ -75,7 +75,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&knowrob;pathToCadModel"/>
-                <owl:hasValue rdf:datatype="&xsd;string">package://Objects/fishtank_bluedartfrog.dae</owl:hasValue>
+                <owl:hasValue rdf:datatype="&xsd;string">package://iai_uwsim/Objects/fishtank_bluedartfrog.dae</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>   
   </owl:Class>
@@ -85,7 +85,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&knowrob;pathToCadModel"/>
-                <owl:hasValue rdf:datatype="&xsd;string">package://Objects/fishtank_bubblecoral.dae</owl:hasValue>
+                <owl:hasValue rdf:datatype="&xsd;string">package://iai_uwsim/Objects/fishtank_bubblecoral.dae</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>   
   </owl:Class>
@@ -95,7 +95,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&knowrob;pathToCadModel"/>
-                <owl:hasValue rdf:datatype="&xsd;string">package://Objects/fishtank_crab.dae</owl:hasValue>
+                <owl:hasValue rdf:datatype="&xsd;string">package://iai_uwsim/Objects/fishtank_crab.dae</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>   
   </owl:Class>
@@ -105,7 +105,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&knowrob;pathToCadModel"/>
-                <owl:hasValue rdf:datatype="&xsd;string">package://Objects/fishtank_pillarcoral.dae</owl:hasValue>
+                <owl:hasValue rdf:datatype="&xsd;string">package://iai_uwsim/Objects/fishtank_pillarcoral.dae</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>   
   </owl:Class>
@@ -115,7 +115,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&knowrob;pathToCadModel"/>
-                <owl:hasValue rdf:datatype="&xsd;string">package://Objects/fishtank_rock.dae</owl:hasValue>
+                <owl:hasValue rdf:datatype="&xsd;string">package://iai_uwsim/Objects/fishtank_rock.dae</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>   
   </owl:Class>
@@ -125,7 +125,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&knowrob;pathToCadModel"/>
-                <owl:hasValue rdf:datatype="&xsd;string">package://Objects/fishtank_starfish.dae</owl:hasValue>
+                <owl:hasValue rdf:datatype="&xsd;string">package://iai_uwsim/Objects/fishtank_starfish.dae</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>   
   </owl:Class>
