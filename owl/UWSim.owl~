@@ -148,7 +148,7 @@
 
 <owl:NamedIndividual rdf:about="&knowrob;SemanticMapPerceptionFloor">
     <rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
-    <knowrob:startTime rdf:resource="http://knowrob.org/kb/ias_semantic_map.owl#timepoint_0"/>
+    <knowrob:startTime rdf:resource="http://knowrob.org/kb/uwsim_semantic_map.owl#timepoint_0"/>
     <knowrob:eventOccursAt rdf:resource="&knowrob;Transformation_Floor"/>
     <knowrob:objectActedOn rdf:resource="&knowrob;Floor"/>
 </owl:NamedIndividual>
