@@ -8,7 +8,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://uwsim_models/uwsim_fish_urdf/Fish_models/Fish1_1.dae"/> 		<!--robot/Fish1/Fish1_1_new.obj-->
+        <mesh filename="robot/Fish1/Fish1_1_new1.obj"/>
       </geometry>
     </visual>
   </link>
@@ -17,7 +17,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://uwsim_models/uwsim_fish_urdf/Fish_models/Fish1_2.dae"/>		<!--"robot/Fish1/Fish1_2_new.obj"/-->
+        <mesh filename="robot/Fish1/Fish1_2_new1.obj"/>
       </geometry>
     </visual>
   </link>
@@ -32,9 +32,9 @@
 
   <link name="tail">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0.5 0"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://uwsim_models/uwsim_fish_urdf/Fish_models/Fish1_Tail.dae"/>	  	<!--"robot/Fish1/Fish1_Tail_new.obj"/-->
+        <mesh filename="robot/Fish1/Fish1_Tail_new1.obj"/>
       </geometry>
     </visual>
   </link>
@@ -51,7 +51,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://uwsim_models/uwsim_fish_urdf/Fish_models/Fish1_Fin.dae"/>		<!--"robot/Fish1/Fish1_Fin_new.obj"/-->
+        <mesh filename="robot/Fish1/Fish1_Fin_new.obj"/>
       </geometry>
     </visual>
   </link>
@@ -60,7 +60,7 @@
     <parent link="base_link"/>
     <child link="fin"/>
     <axis xyz="0 1 0"/>
-    <origin rpy="0 0 0" xyz="0 0.5 -0.3"/>
+    <origin rpy="0 0 0" xyz="0 0.0 -0.3"/>
     <limit effort="1000.0" lower="0" upper="0.5" velocity="1.0"/>
   </joint>
 

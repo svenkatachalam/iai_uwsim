@@ -8,7 +8,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://uwsim_models/uwsim_fish_urdf/Fish_models/Fish3_1_new.dae"/>
+        <mesh filename="robot/Fish3/Fish3_1_new1.obj"/>
       </geometry>
     </visual>
   </link>
@@ -17,7 +17,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://uwsim_models/uwsim_fish_urdf/Fish_models /Fish3_2_new.dae"/>
+        <mesh filename="robot/Fish3/Fish3_2_new1.obj"/>
       </geometry>
     </visual>
   </link>
@@ -26,7 +26,7 @@
     <parent link="base_link"/>
     <child link="body"/>
     <axis xyz="0 0 1"/>
-    <origin rpy="0 0 0" xyz="-2.3 0 0"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
     <limit effort="1000.0" lower="-0.5488" upper="0.5488" velocity="1.0"/>
   </joint>
 
@@ -34,7 +34,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://uwsim_models/uwsim_fish_urdf/Fish_models /Fish3_tail.dae"/>
+        <mesh filename="robot/Fish3/Fish3_tail_new1.obj"/>
       </geometry>
     </visual>
   </link>
@@ -52,7 +52,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://uwsim_models/uwsim_fish_urdf/Fish_models /Fish3_fin.dae"/>
+        <mesh filename="robot/Fish3/Fish3_fin_new1.obj"/>
       </geometry>
     </visual>
   </link>
